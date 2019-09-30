@@ -1,0 +1,13 @@
+{
+  "type": "wb-cube-example",
+  "properties": {
+    "title": {
+      "type": "String",
+      "value": "123"
+    },
+    "padding": {
+      "type": "String",
+      "value": "123444"
+    }
+  }
+}

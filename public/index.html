@@ -6,12 +6,27 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>wb-cube-example</title>
+    <script src="http://192.168.199.149:8000/dist/js/index.js"></script>
+    <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+    <!-- <script src="http://10.222.56.217:8000/dist/js/chunk-vendors.77c5368e.js"></script> -->
   </head>
   <body>
     <noscript>
       <strong>We're sorry but wb-cube-example doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app">
+      
+    </div>
+    <div id="app1">
+      <wb-cube-example :data="{title: {value: 1232}}"></wb-cube-example>
+    </div>
     <!-- built files will be auto injected -->
   </body>
+
+
+  <script>
+   new Vue({
+     el: '#app1'
+   })
+  </script>
 </html>

@@ -1,5 +1,5 @@
 <template>
-  <div>{{ data.title.value }}</div>
+  <div>{{ data.properties.title.value }}</div>
 </template>
 
 <script>

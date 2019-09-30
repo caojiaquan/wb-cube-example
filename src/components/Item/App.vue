@@ -1,9 +1,10 @@
 <template>
   <div class="item">
-    <wb-cube-example 
-      :data="data.properties"
+    <component 
+      :is="data.type"
+      :data="data"
       ref="elem"
-      @click.native.stop="handleClick()"></wb-cube-example>
+      @click.native.stop="handleClick()"></component>
   </div>
 </template>
 

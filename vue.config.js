@@ -1,7 +1,7 @@
 module.exports = {
   configureWebpack: {
     entry: {
-      index: './src/block/index.js',
+      index: './src/blocks/h5/index.js',
     },
     output: {
       filename: 'js/[name].js'

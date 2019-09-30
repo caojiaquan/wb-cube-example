@@ -1,4 +1,4 @@
-const schema = require('@/block/schema.json');
+const schema = require('@/blocks/schema.json');
 export default {
   "pages": [
     {

@@ -1,5 +1,5 @@
 import Component from './Component.vue'
 if (window.Vue) {
-  Vue.component(require('../../../package.json').name, Component)
+  Vue.component(require('../schema.json').type, Component)
 }
 export default Component

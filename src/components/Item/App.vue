@@ -25,7 +25,6 @@ export default {
   },
   methods: {
     handleClick() {
-      console.log(window.componentsData[this.$refs.elem._uid]);
     }
   }
 };
